@@ -22,7 +22,7 @@ object frmOne: TfrmOne
       Size.Height = 525.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      ActivePageIndex = 3
+      ActivePageIndex = 2
       Fill.Kind = gfkNone
       Stroke.Kind = gskNone
       TabAppearance.Font.Size = 15.000000000000000000
@@ -131,6 +131,31 @@ object frmOne: TfrmOne
           DisabledBitmaps = <>
           UseDefaultAppearance = True
         end>
+      object PageControlPage3: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        TabStop = False
+        Visible = False
+        PageIndex = 3
+        IsActive = False
+      end
+      object PageControlPage0: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TabStop = False
+        Visible = False
+        Stroke.Color = claCrimson
+        PageIndex = 0
+        IsActive = False
+      end
       object PageControlPage1: TTMSFMXPageControlContainer
         Align = Client
         Margins.Bottom = 49.000000000000000000
@@ -151,35 +176,18 @@ object frmOne: TfrmOne
         Size.PlatformDefault = False
         TabOrder = 2
         TabStop = False
-        Visible = False
         PageIndex = 2
-        IsActive = False
-      end
-      object PageControlPage0: TTMSFMXPageControlContainer
-        Align = Client
-        Margins.Bottom = 49.000000000000000000
-        Size.Width = 384.000000000000000000
-        Size.Height = 476.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 0
-        TabStop = False
-        Visible = False
-        Stroke.Color = claCrimson
-        PageIndex = 0
-        IsActive = False
-      end
-      object PageControlPage3: TTMSFMXPageControlContainer
-        Align = Client
-        Margins.Bottom = 49.000000000000000000
-        Size.Width = 384.000000000000000000
-        Size.Height = 476.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 3
-        TabStop = False
-        PageIndex = 3
         IsActive = True
       end
     end
+  end
+  object LayerTip: TLayout
+    Position.X = 88.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
   end
   object MultiView: TMultiView
     TargetControl = LayerOne

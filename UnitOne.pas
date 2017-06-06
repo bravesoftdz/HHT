@@ -16,6 +16,7 @@ type
     PageControlPage2: TTMSFMXPageControlContainer;
     PageControlPage3: TTMSFMXPageControlContainer;
     MultiView: TMultiView;
+    LayerTip: TLayout;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
