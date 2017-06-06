@@ -1,0 +1,195 @@
+object frmOne: TfrmOne
+  Left = 0
+  Top = 0
+  Border.Styling = False
+  Caption = #24935#28023#36890
+  ClientHeight = 525
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayerOne: TLayout
+    Align = Client
+    Size.Width = 384.000000000000000000
+    Size.Height = 525.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object PageControl: TTMSFMXPageControl
+      Align = Client
+      Size.Width = 384.000000000000000000
+      Size.Height = 525.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ActivePageIndex = 3
+      Fill.Kind = gfkNone
+      Stroke.Kind = gskNone
+      TabAppearance.Font.Size = 15.000000000000000000
+      TabAppearance.Font.Name = 'Segoe UI'
+      TabAppearance.Font.StyleExt = {00070000000000000004000000}
+      TabAppearance.ProgressFill.Color = xFF1BADF8
+      TabAppearance.ProgressStroke.Color = xFF1BADF8
+      TabAppearance.Fill.Color = xFFEDF7F8
+      TabAppearance.Stroke.Color = claDarkgray
+      TabAppearance.ActiveFill.Color = claLightcyan
+      TabAppearance.ActiveStroke.Color = claCrimson
+      TabAppearance.DisabledFill.Color = claLightgray
+      TabAppearance.DisabledStroke.Color = claDarkgray
+      TabAppearance.DownFill.Color = xFFD9E3EE
+      TabAppearance.DownStroke.Color = claDarkgray
+      TabAppearance.HoverFill.Color = xFFE3EDF8
+      TabAppearance.HoverStroke.Color = claDarkgray
+      TabAppearance.Shape = tsRectangle
+      TabAppearance.ShapeOverlap = 0.000000000000000000
+      TabAppearance.ShapeSlope = 0.000000000000000000
+      TabAppearance.ShapeRounding = 0.000000000000000000
+      TabAppearance.ShowFocus = False
+      TabAppearance.CloseFill.Kind = gfkNone
+      TabAppearance.CloseFill.Color = xFFEDF7F8
+      TabAppearance.CloseStroke.Color = claDarkgray
+      TabAppearance.CloseStroke.Width = 2.000000000000000000
+      TabAppearance.CloseDownFill.Color = claCrimson
+      TabAppearance.CloseDownStroke.Color = claWhite
+      TabAppearance.CloseDownStroke.Width = 2.000000000000000000
+      TabAppearance.CloseHoverFill.Color = claRed
+      TabAppearance.CloseHoverStroke.Color = claWhite
+      TabAppearance.CloseHoverStroke.Width = 2.000000000000000000
+      TabAppearance.BadgeFill.Color = claOrange
+      TabAppearance.BadgeStroke.Color = claDarkred
+      TabAppearance.BadgeFont.Color = claDarkred
+      TabAppearance.BadgeFont.Name = 'Segoe UI'
+      TabAppearance.BadgeFont.StyleExt = {00070000000000000004000000}
+      ButtonAppearance.Fill.Color = xFFEDF7F8
+      ButtonAppearance.Stroke.Color = claDarkgray
+      ButtonAppearance.DownFill.Color = xFFD9E3EE
+      ButtonAppearance.DownStroke.Color = claDarkgray
+      ButtonAppearance.DisabledFill.Color = claLightgray
+      ButtonAppearance.DisabledStroke.Color = claDarkgray
+      ButtonAppearance.HoverFill.Color = xFFE3EDF8
+      ButtonAppearance.HoverStroke.Color = claDarkgray
+      ButtonAppearance.CloseIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+        61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        006949444154384FDD925D0A80300C83AB4750BCFF51D5D015624C417CDC0763
+        85FC6C83C57C1CF73A73B440DB734C96B1171CFEA4A90938635BEC0A00079897
+        BF2B005A62BDEBD87FD315E074BD817D96BB5685A195CEE147460B5CB8684B18
+        7C12362AD0B61C2721E2024E4713515D0CD8E20000000049454E44AE426082}
+      ButtonAppearance.InsertIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+        61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        002D49444154384F6318FEE03F14E3044C509A6C30F00630426918C0EB5F2400
+        D747B10B088191100B431E30300000F2A6050C520DEEFE0000000049454E44AE
+        426082}
+      ButtonAppearance.TabListIcon.PNG = {
+        89504E470D0A1A0A0000000D4948445200000007000000090806000000FE5836
+        A3000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        003249444154285363C00718C3C2C2FE43D9A401BC3A99A03456C00822B0E95E
+        B56A152358120490158024A04C0420C1E50C0C0024C60E0AC706C1D800000000
+        49454E44AE426082}
+      ButtonAppearance.ScrollNextIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+        61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        005649444154384F63180538011F10EF046273300F0F6082D2E8E00710FF0262
+        A20CC105D8807833107F00628A0CD902C4380DC1E505186084D264017620C66B
+        3B3E40B4665C5E00F99D0588DD81F824486014E0020C0C0037990C872198B2EE
+        0000000049454E44AE426082}
+      ButtonAppearance.ScrollPreviousIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+        61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        005349444154384F631839801D4A9305A281F80E100B8279240290E63F40DC01
+        E69108609A3BC13C1241301083344F02F3C8000A40FC00882F00B13048801C40
+        7543F84102E4009021DD40CC04E68D0234C0C000006E2E0D42C90388B4000000
+        0049454E44AE426082}
+      Options.CloseAction = ttcaNone
+      TabSize.Mode = tsmAutoSize
+      TabSize.Height = 50.000000000000000000
+      TabSize.Spacing = 1.000000000000000000
+      Layout.Position = tlpBottom
+      Pages = <
+        item
+          Text = 'Tab Item 0'
+          Bitmaps = <>
+          DisabledBitmaps = <>
+          UseDefaultAppearance = True
+        end
+        item
+          Text = 'Tab Item 1'
+          Bitmaps = <>
+          DisabledBitmaps = <>
+          UseDefaultAppearance = True
+        end
+        item
+          Text = 'Tab Item 2'
+          Bitmaps = <>
+          DisabledBitmaps = <>
+          UseDefaultAppearance = True
+        end
+        item
+          Text = 'Tab Item 3'
+          Bitmaps = <>
+          DisabledBitmaps = <>
+          UseDefaultAppearance = True
+        end>
+      object PageControlPage1: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        TabStop = False
+        Visible = False
+        PageIndex = 1
+        IsActive = False
+      end
+      object PageControlPage2: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        TabStop = False
+        Visible = False
+        PageIndex = 2
+        IsActive = False
+      end
+      object PageControlPage0: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TabStop = False
+        Visible = False
+        Stroke.Color = claCrimson
+        PageIndex = 0
+        IsActive = False
+      end
+      object PageControlPage3: TTMSFMXPageControlContainer
+        Align = Client
+        Margins.Bottom = 49.000000000000000000
+        Size.Width = 384.000000000000000000
+        Size.Height = 476.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        TabStop = False
+        PageIndex = 3
+        IsActive = True
+      end
+    end
+  end
+  object MultiView: TMultiView
+    TargetControl = LayerOne
+    Mode = Drawer
+    ShadowOptions.Opacity = 0.500000000000000000
+    Opacity = 0.699999988079071000
+    Size.Width = 250.000000000000000000
+    Size.Height = 525.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+  end
+end
